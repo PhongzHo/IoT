@@ -1,6 +1,8 @@
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27, 16,2);
+// SCL -> A5 arduino
+// SDA -> A4 arduino 
 
 void setup() {
   lcd.init();
